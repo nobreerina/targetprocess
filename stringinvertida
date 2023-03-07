@@ -1,0 +1,5 @@
+ String frase = JOptionPane.showInputDialog(null, "A vida é bela");
+ String fraseInvertida = new StringBuilder(frase).reverse().toString();
+    System.out.println(fraseInvertida);
+//ou
+ JOptionPane.showMessageDialog(null, fraseInvertida);
